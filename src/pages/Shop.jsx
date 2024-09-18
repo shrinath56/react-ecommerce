@@ -15,10 +15,10 @@ const Shop = () => {
 
   return (
     <Fragment>
-      <Banner title="product" />
-      <section className="filter-bar">
-        <Container className="filter-bar-contianer">
-          <Row className="justify-content-center">
+      <Banner title='Products' />
+      <section className='filter-bar'>
+        <Container className='filter-bar-contianer'>
+          <Row className='justify-content-center'>
             <Col md={4}>
               <FilterSelect setFilterList={setFilterList} />
             </Col>

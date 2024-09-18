@@ -35,52 +35,52 @@ import watchSlide from "../Images/watch-07.png";
 
 export const SliderData = [
   {
-      id: 1,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: sofaSlide,
+    id: 1,
+    title: "50% Off For Your First Shopping",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+    cover: sofaSlide,
   },
   {
-      id: 2,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: phone08,
+    id: 2,
+    title: "50% Off For Your First Shopping",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+    cover: phone08,
   },
   {
-      id: 3,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: wireless01,
+    id: 3,
+    title: "50% Off For Your First Shopping",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+    cover: wireless01,
   },
   {
-      id: 4,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: watchSlide,
+    id: 4,
+    title: "50% Off For Your First Shopping",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+    cover: watchSlide,
   },
 ];
 
 export const serviceData = [
   {
-    icon: <ion-icon name="car"></ion-icon>,
+    icon: <ion-icon name='car'></ion-icon>,
     title: "Free Shipping",
     subtitle: "Lorem ipsum dolor sit amet.",
     bg: "#fdefe6",
   },
   {
-    icon: <ion-icon name="card"></ion-icon>,
+    icon: <ion-icon name='card'></ion-icon>,
     title: "Safe Payment",
     subtitle: "Lorem ipsum dolor sit amet.",
     bg: "#ceebe9",
   },
   {
-    icon: <ion-icon name="shield-half-outline"></ion-icon>,
+    icon: <ion-icon name='shield-half-outline'></ion-icon>,
     title: "Secure Payment",
     subtitle: "Lorem ipsum dolor sit amet.",
     bg: "#e2f2b2",
   },
   {
-    icon: <ion-icon name="headset"></ion-icon>,
+    icon: <ion-icon name='headset'></ion-icon>,
     title: " Back Guarantee",
     subtitle: "Lorem ipsum dolor sit amet.",
     bg: "#d6e5fb",
@@ -93,8 +93,8 @@ export const discoutProducts = [
     productName: "Stone and Beam Westview ",
     imgUrl: productImg01,
     category: "sofa",
-    price: 193,
-    discount:30,
+    price: 19300,
+    discount: 30,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -112,8 +112,8 @@ export const discoutProducts = [
     productName: "Rivet Bigelow Modern ",
     imgUrl: productImg02,
     category: "sofa",
-    price: 253,
-    discount:20,
+    price: 25300,
+    discount: 20,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -135,8 +135,8 @@ export const discoutProducts = [
     productName: "Baltsar Chair",
     imgUrl: productImg08,
     category: "chair",
-    price: 89,
-    discount:15,
+    price: 8900,
+    discount: 15,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -158,8 +158,8 @@ export const discoutProducts = [
     productName: "Helmar Chair",
     imgUrl: productImg09,
     category: "chair",
-    price: 112,
-    discount:35,
+    price: 11200,
+    discount: 35,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -178,11 +178,11 @@ export const discoutProducts = [
   },
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Realme 11",
     imgUrl: phone03,
     category: "mobile",
-    price: 599,
-    discount:10,
+    price: 5999,
+    discount: 10,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -201,11 +201,11 @@ export const discoutProducts = [
   },
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "One Plus Nord 3",
     imgUrl: phone04,
     category: "mobile",
-    price: 799,
-    discount:5,
+    price: 29999,
+    discount: 5,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -222,8 +222,7 @@ export const discoutProducts = [
     ],
     avgRating: 4.8,
   },
-
-]
+];
 
 export const products = [
   {
@@ -231,7 +230,7 @@ export const products = [
     productName: "Stone and Beam Westview ",
     imgUrl: productImg01,
     category: "sofa",
-    price: 193,
+    price: 19300,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -250,7 +249,7 @@ export const products = [
     productName: "Rivet Bigelow Modern ",
     imgUrl: productImg02,
     category: "sofa",
-    price: 253,
+    price: 25300,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -273,7 +272,7 @@ export const products = [
     productName: "Amazon Brand Modern Sofa",
     imgUrl: productImg03,
     category: "sofa",
-    price: 173,
+    price: 17300,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -295,7 +294,7 @@ export const products = [
     productName: "Rivet Bigelow Modern ",
     imgUrl: productImg02,
     category: "sofa",
-    price: 253,
+    price: 25300,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -317,7 +316,7 @@ export const products = [
     productName: "Fllufy Sheep Sofa",
     imgUrl: productImg04,
     category: "sofa",
-    price: 163,
+    price: 16300,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -340,7 +339,7 @@ export const products = [
     productName: "Faux Velvet Sofa",
     imgUrl: productImg05,
     category: "sofa",
-    price: 163,
+    price: 16300,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -363,7 +362,7 @@ export const products = [
     productName: "Fllufy Sheep Sofa",
     imgUrl: productImg06,
     category: "sofa",
-    price: 163,
+    price: 16300,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -385,7 +384,7 @@ export const products = [
     productName: "Sakarias Armchair",
     imgUrl: productImg07,
     category: "chair",
-    price: 99,
+    price: 9900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -408,7 +407,7 @@ export const products = [
     productName: "Modern Arm Sofa",
     imgUrl: productImg007,
     category: "sofa",
-    price: 173,
+    price: 17300,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -431,7 +430,7 @@ export const products = [
     productName: "Baltsar Chair",
     imgUrl: productImg08,
     category: "chair",
-    price: 89,
+    price: 8900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -454,7 +453,7 @@ export const products = [
     productName: "Helmar Chair",
     imgUrl: productImg09,
     category: "chair",
-    price: 112,
+    price: 11200,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -474,10 +473,10 @@ export const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Apple iPhone 16 Pro",
     imgUrl: phone01,
     category: "mobile",
-    price: 799,
+    price: 179990,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -499,7 +498,7 @@ export const products = [
     productName: "Sakarias Armchair",
     imgUrl: productImg10,
     category: "chair",
-    price: 99,
+    price: 9900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -518,10 +517,10 @@ export const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Apple iPhone 16 Pro Max",
     imgUrl: phone02,
     category: "mobile",
-    price: 799,
+    price: 179900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -541,10 +540,10 @@ export const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Realme 11",
     imgUrl: phone03,
     category: "mobile",
-    price: 599,
+    price: 5990,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -564,10 +563,10 @@ export const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "One Plus Nord 3",
     imgUrl: phone04,
     category: "mobile",
-    price: 799,
+    price: 29999,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -587,10 +586,10 @@ export const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Apple iPhone 16 Pro",
     imgUrl: phone05,
     category: "mobile",
-    price: 899,
+    price: 179900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -610,10 +609,10 @@ export const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Samsung Galaxy S24",
     imgUrl: phone06,
     category: "mobile",
-    price: 699,
+    price: 129999,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -636,7 +635,7 @@ export const products = [
     productName: "Rolex Watch",
     imgUrl: watch01,
     category: "watch",
-    price: 299,
+    price: 29900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -659,7 +658,7 @@ export const products = [
     productName: "Timex Easy Reader Watch",
     imgUrl: watch02,
     category: "watch",
-    price: 299,
+    price: 29900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -682,7 +681,7 @@ export const products = [
     productName: "Rolex Watch",
     imgUrl: watch03,
     category: "watch",
-    price: 299,
+    price: 29900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -705,7 +704,7 @@ export const products = [
     productName: "Apple Watch",
     imgUrl: watch04,
     category: "watch",
-    price: 399,
+    price: 39900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -728,7 +727,7 @@ export const products = [
     productName: "Beat Studio Wireless",
     imgUrl: wireless01,
     category: "wireless",
-    price: 199,
+    price: 19900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -751,7 +750,7 @@ export const products = [
     productName: "Beat EP Headphones",
     imgUrl: wireless03,
     category: "wireless",
-    price: 199,
+    price: 1990,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -773,7 +772,7 @@ export const products = [
     productName: "Black Headphones",
     imgUrl: wireless02,
     category: "wireless",
-    price: 169,
+    price: 1690,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -795,7 +794,7 @@ export const products = [
     productName: "Bluetooth Headphones",
     imgUrl: wireless04,
     category: "wireless",
-    price: 139,
+    price: 1390,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -812,5 +811,4 @@ export const products = [
     ],
     avgRating: 4.8,
   },
-
 ];

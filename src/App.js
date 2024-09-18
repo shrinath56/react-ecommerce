@@ -15,7 +15,7 @@ function App() {
     <Suspense fallback={<Loader />}>
       <Router>
         <ToastContainer
-          position="top-right"
+          position='top-right'
           autoClose={1000}
           hideProgressBar={false}
           newestOnTop={false}
@@ -23,14 +23,14 @@ function App() {
           pauseOnFocusLoss
           draggable
           pauseOnHover
-          theme="light"
+          theme='light'
         />
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/shop/:id" element={<Product />} />
-          <Route path="/cart" element={<Cart />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/shop' element={<Shop />} />
+          <Route path='/shop/:id' element={<Product />} />
+          <Route path='/cart' element={<Cart />} />
         </Routes>
         <Footer />
       </Router>
