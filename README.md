@@ -1,8 +1,8 @@
 # EcomReact
 
-## 😎 Features
+## Features
 
-- Beauty UI similar to ecommerce website
+- UI similar to ecommerce website
 - Fully responsive and mobile friendly
 - User can add items to cart
 - User can view details of an item
